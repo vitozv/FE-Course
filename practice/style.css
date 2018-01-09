@@ -1,0 +1,38 @@
+.wrapper {
+    height: 500px;
+    border: 1px solid black;    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.red {
+    height: 200px;
+    background-color: red;
+    text-align: center;
+    flex-basis: 200px;
+    flex-shrink: 1;
+}
+
+.blue {
+    height: 200px;
+    background-color: blue;
+    text-align: center;
+    flex-basis: 200px;
+    flex-shrink: 2;
+}
+
+.green {
+    height: 200px;
+    background-color: green;
+    text-align: center;
+    flex-basis: 200px;
+    flex-shrink: 1;
+}
+
+span {
+    font-size: 36px;
+    color: white;
+    line-height: 200px;
+}

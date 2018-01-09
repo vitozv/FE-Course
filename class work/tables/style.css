@@ -1,0 +1,21 @@
+td {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background: pink;
+    background: hsla(240, 100%, 0%, 1);
+    
+    
+    
+    border: 2px solid greenyellow;    
+}
+
+table {
+    background: greenyellow;
+    padding: 10px;
+    border-radius: 10px;        
+}
+
+th {
+    padding: 10px;
+}

@@ -1,0 +1,36 @@
+.wrapper {
+    font-size: 0px;
+}
+
+.red {
+    display: inline-block;
+    height: 200px;
+    width: 25%;
+    background-color: red;
+}
+
+.blue {
+    display: inline-block;
+    height: 200px;
+    width: 50%;
+    background-color: blue;
+}
+
+.green {
+    display: inline-block;
+    height: 200px;
+    width: 25%;
+    background-color: green;
+}
+
+@media (max-width: 1023px){
+    .red {
+    width: 100%;
+    }
+    .blue {
+    width: 100%;
+    }
+    .green {
+    width: 100%;
+    }
+}

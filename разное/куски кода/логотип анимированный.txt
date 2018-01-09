@@ -1,0 +1,11 @@
+.logo {
+display: inline-block;
+height: 80px;
+width: 80 px;
+background-mage: url();
+background-size: cover;
+
+.logo:hover {
+transform: rotate(360deg);
+transition: all 1s ease-out;
+}

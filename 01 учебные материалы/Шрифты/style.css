@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('HelveticaNeue.ttf')
+    format('truetype');
+}
+
+* {
+    font-size: 16px;
+    letter-spacing: 0.1em;
+}
+
+.first {
+    font-family: 'HelveticaNeue';
+    line-height: 200%;
+}
+
+.second {
+    font-family: 'Open Sans', sans-serif;
+    font-variant: small-caps;    
+}
+
+.second::first-line {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.third {
+    font-family: 'Courier New';
+}

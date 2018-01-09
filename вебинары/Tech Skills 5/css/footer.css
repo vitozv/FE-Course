@@ -1,0 +1,17 @@
+.page-footer{
+    margin-top: 16px;
+    box-shadow: 0 0 3px rgba(0,0,0, 1);
+    border-radius: 4px;}
+
+/* .footer-lists{
+} */
+
+.footer-list{
+    text-align: center;
+    display: inline-block;
+}
+
+.footer-list ul{
+    list-style: none;
+    width: 316px;
+}

@@ -1,0 +1,42 @@
+.page-header {
+    padding: 4px 20px;
+    margin-bottom: 16px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0,0,0, 3)
+}
+.logo {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    vertical-align: middle;
+    background-image: url(../img/logo.jpg);
+    background-size: cover;
+}
+
+.menu {
+    display: inline-block;
+    margin-left: 800px;
+    list-style: none;
+    font-size: 0;
+}
+
+.menu-item {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 16px;
+}
+.menu-item:last-child {
+    margin-right: 0;
+}
+.menu-link {
+    border: 1px solid transparent;
+    border-radius: 2px;
+    padding: 4px;
+    color: #333;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.menu-link:hover {
+    border: 1px solid #333;
+}

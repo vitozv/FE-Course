@@ -1,0 +1,73 @@
+Полезные ключи Git
+
+лог в кратком формате
+git log --pretty=format:"%h - %an, %ar : %s"
+git log --since=2.weeks
+git log -p -2 (расшифровка последних двух коммитов)
+
+Подключение notepad++ для комментариев к коммиту
+git config --global core.editor "'D:\Program Files\Notepad++\notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
+git config --global core.editor "'C:\Program Files\Microsoft VS Code\Code.exe' -multiInst -notabbar -nosession -noPlugin"
+
+добавить комментарий по-простому
+git commit -m "my commit"
+
+git commit --amend дополнить предыдущий коммит нынешним. Если в нынешний ничего не добавлялось, то эта команда позволит просто заменить комментарий
+
+удалить файл из индекса, но оставить у себя в папке
+git rm --cached (имя файла)
+
+переименовать файл
+git mv file_from file_to
+
+откатить изменения файлы до уровня предыдущего коммита
+checkout -- (имя файла)
+
+история коммитов
+git log
+-p показывает разницу, внесенную в каждый коммит
+- 2 ограничивает историю двумя поледними коммитами
+--stat сокращенная статистика для каждого коммита
+--since=2.weeks за последние две недели
+-S(содержание строки) найти коммит, который внес изменения по указанному содержанию
+после log можно указать имя файла или путь директории, чтобы вывести коммиты, соотвествующие этому критерию
+
+git clone клонировать у себя удаленный репозиторий
+git fetch [remote-name] забрать новые данные (но с локальными они не сливаются)
+git pull забрать и слить со своими
+git push [remote-name] [branch-name] отправить свои изменения
+
+
+Создать новую ветку и сразу же в нее переключиться
+git checkout -b new_f
+
+Просто создать новую ветку
+git branch new_f
+
+git branch -d (имя ветки) удаление ветки
+git branch -m имя переименует текущую ветвь
+git branch - посмотреть все ветки
+git branch -v - видим последние коммиты в ветках
+git branch -vv посмотреть установленные отслеживаемые ветки
+git checkout (имя ветки) - перейти в другую ветку
+
+MERGE
+git config --global merge.tool kdiff3
+git config --global merge.tool kdiff3.cmd '"C:\\Program Files\\KDiff3\\kdiff3" $BASE $LOCAL $REMOTE -o $MERGED' 
+
+для мерджа запускаем
+git mergetool
+
+находимся в интересующем нас каталоге и запускаем git merge (имя дерева, которое мы затаскиваем в текущий каталог)
+
+git branch --merged посмотреть слитые ветки (потом ненужные удалить с помощью git branch -d)
+git branch --no-merged посмотреть неслитые ветки
+
+git remote add (имя ветки) (адрес ветки) - добавление удаленного сервера в кечестве ветки проекта
+
+git push (удал. сервер) (ветка) отправить ветку на сервер
+после имени ветки можно поставить : и указать новое название ветки
+
+git push origin --delete (имя ветки) удаление ветки на сервере
+
+git push -u origin master

@@ -1,0 +1,65 @@
+
+<div class="team section">
+  <h2 class="section-title">meat the team</h2>
+  <div class="team-member">
+    <figure>
+      <img class="member-img" scr"___" alt="">
+      <figcaption class="member-descr">John Smith <span>head of development</span class="member-pos"></figcaption>
+    </figure>
+    <div class="team-socials">
+      <a href="#" class="icon icon-facebook"></a>
+      <a href="#" class="icon icon-linkedin"></a>
+      <a href="#" class="icon icon-twitter"></a>
+    </div>
+  </div>
+</div>
+
+
+.team-member {
+  position: relative;
+  width: 25%;
+  padding: 5px;
+  float: left;
+}
+
+.team-member:hover > .team-socials {
+  display: block;
+}
+
+.member-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.member-descr {
+  text-allign: center;
+  text-transform: uppercase;
+}
+
+.member-pos {
+display: block;
+}
+
+.team-socials {
+ display: none;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate (-50%; -50%);
+ widht: 100%;
+ text-allign: center;
+}
+
+.icon {
+  display: inline-block;
+  height: 60px;
+  widht: 60px;
+  background-color: #fefefe;
+}
+
+.icon-facebook {
+ background-image: url(../img/team/facebook.svg);
+}
+
+ 

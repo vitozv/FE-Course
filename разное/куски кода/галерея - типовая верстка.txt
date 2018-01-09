@@ -1,0 +1,8 @@
+Структура галлереи
+
+<div class:"gallery">
+  <figure class:"gallery-item">
+    <img class="gallery-img" src=___ alt="___">
+    <figcaption class="gallery-caption">__</figcaption>
+  </figure>
+</div>

@@ -1,0 +1,4 @@
+background: linear-gradient (to right, black. grey);
+background: url () no-repeat scroll top;
+background-attachment: fixed;
+background-size: cover;

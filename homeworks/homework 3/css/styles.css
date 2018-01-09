@@ -1,0 +1,58 @@
+body{
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+}
+
+.wrapper{
+    box-sizing: border-box;
+    width: 480px;
+    margin: 240px auto;
+    padding: 10px 35px 35px 35px;
+    background-color: rgb(255, 255, 255);    
+}
+
+h2{
+    text-transform: uppercase;
+    font-family: 'Pathway Gothic One';
+    font-size: 25px;
+    color: #263555;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+img{
+    width: 410px;
+    height: 100px;
+    margin-bottom: 25px;
+}
+
+h3{
+    font-family: 'Arial regular';
+    font-size: 14px;
+    line-height: 19px;
+    color: #263555;
+    margin-bottom: 10px;
+}
+
+p{
+    font-family: 'Arial regular';
+    font-size: 12px;
+    line-height: 17px;
+    margin-bottom: 30px;
+}
+
+.principles-box{
+    box-sizing: border-box;
+    width: 335px;
+}
+
+hr{
+    margin: 50px auto 0px auto;
+}
+
+.service-list{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 203px;
+    padding-left: 25px;
+}

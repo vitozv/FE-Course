@@ -1,0 +1,8 @@
+:root {
+--primary-color: __;
+--secondary-cloro: __;
+}
+
+/* в стилях класса пишем */
+
+color: var(--primary-color);

@@ -1,0 +1,63 @@
+.yamoney-pay-button {
+  text-align: center;
+  background: #FFDB4D;
+}
+
+.yamoney-pay-button__pay,
+.yamoney-pay-button {
+  background: #FFDB4D;
+  border-radius: 4px;
+  height: 64px;
+  width: 155px;
+  outline: 0px;
+  border: 0px;
+  transition: 0.1s ease-out 0s all;
+  cursor: pointer;
+}
+
+.yamoney-pay-button__pay {
+  position: relative;
+  opacity: 0;
+  z-index: 2;
+}
+
+.yamoney-pay-button:hover {
+  background: #ffd633;
+  transition: 0.1s ease-out 0s all;
+  cursor: pointer;
+}
+
+.yamoney-pay-button:active {
+  background: #FFcc00;
+  cursor: pointer;
+}
+
+.yamoney-pay-button__text {
+  position: relative;
+  left: 0;
+  top: -53px;
+  color: #000;
+  font-size: 20px;
+  line-height: 26px;
+  font-family: YandexSansTextApp-Regular, Arial, Helvetica, sans-serif;
+  text-align: center;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.yamoney-pay-button__subtext {
+  position: relative;
+  left: 0;
+  top: -55px;
+  color: #000;
+  font-size: 12px;
+  font-family: YandexSansTextApp-Light, Arial, Helvetica, sans-serif;
+  padding: 0 20px;
+  text-align: center;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.yamoney-pay-button_type_fly {
+  box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.12), 0 5px 10px -3px rgba(0, 0, 0, 0.3);;
+}

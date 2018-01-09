@@ -1,0 +1,13 @@
+display: flex;
+flex-direction:column;
+align-items: center;
+align-iems: stretch;
+justify-content: space-between;
+height: 100px;
+
+
+flex-flow: column wrap
+
+https://peredelka.wordpress.com/2013/10/29/о-верстке-вертикального-ритма/
+http://pixelgene.ru/articles/vertical-rhythm.html
+http://htmlbook.ru/content/modulnaya-setka

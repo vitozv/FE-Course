@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    }
+
+.clearfix::after {
+        display: block;
+        content: '';
+        clear: both;
+}
+    
+body {
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper {
+    box-sizing: border-box;
+    width: 1025px;
+    height: 1300px;
+    margin: 230px auto 270px auto;
+    padding: 110px 60px 80px 60px;
+    background-color: rgb(255, 255, 255);    
+}
+
+.left-block {
+    display: inline-block;
+    width: 645px;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-family: 'Pathway Gothic One';
+    font-size: 32px;
+    color: #263555; 
+    margin-bottom: 50px;
+}
+
+img {
+    float: left;
+    width: 362px;
+    height: 282px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+h3 {
+    font-family: 'Arial regular';
+    font-size: 15px;
+    line-height: 19px;
+    color: #263555;
+    margin-bottom: 10px;
+}
+
+p {
+    font-family: 'Arial regular';
+    font-size: 13px;
+    line-height: 19px;
+    color: #4e5050;
+}
+
+.right-block {
+    display: inline-block;
+    width: 210px;
+    margin-left: 40px;
+    vertical-align: top;
+}
+
+.principles-item1 {
+    margin-bottom: 0px;
+}
+
+.principles-item2 {
+    margin-bottom: 0px;
+}
+
+.principles-item3 {
+    margin-bottom: 0px;
+}
+
+.principles-item1::before {
+    content: '';
+    background-image: url(../img/list1.png);
+    width: 26px;
+    height: 28px;
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 10px;
+    background-repeat: no-repeat;
+}
+
+.principles-item2::before {
+    content: '';
+    background-image: url(../img/list2.png);
+    width: 26px;
+    height: 28px;
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 10px;
+    background-repeat: no-repeat;
+}
+
+.principles-item3::before {
+    content: '';
+    background-image: url(../img/list3.png);
+    width: 26px;
+    height: 28px;
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 10px;
+    background-repeat: no-repeat;
+}
+
+.principles-text {
+    padding-left: 36px;
+    margin-bottom: 30px;
+}
+
+.principles-text:last-of-type {
+    padding-left: 36px;
+    margin-bottom: 0px;
+} 
+
+hr {
+    margin-top: 50px;
+    margin-bottom: 55px;
+}
+
+.columns {
+    display: inline-block;
+    margin-top: 30px;
+    columns: 245px 2; 
+}
+
+.arrow-style {
+    margin-bottom: 22px;
+}
+
+.arrow-style::before {
+    content: '';
+    background-image: url(../img/listarrow.png);
+    width: 10px;
+    height: 7px;
+    display: inline-block;
+    vertical-align: center;
+    padding-right: 12px;
+    background-repeat: no-repeat;
+}
+
+.testimonail-head {
+    margin-bottom: 25px;
+}
+
+.testimonal-quotation {
+    background-image: url(../img/block.jpg);
+    width: 211px;
+    height: 219px;
+    display: inline-block;
+    vertical-align: center;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+    font-family: 'Arial regular';
+    font-size: 15px;
+    line-height: 19px;
+    color: #263555;
+}
+
+.testimonal-quotation::before {
+    content:'\201c';
+    padding-right: 5px;
+}
+
+.testimonal-quotation::after {
+    content:'\201d';
+    padding-left: 5px;
+}
+
+.author-testimonial {
+    font-family: 'Arial regular';
+    font-size: 16px;
+    line-height: 23px;
+    color: #263555;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+} 
+
+.text-testimonial {
+    text-align: center;
+} 

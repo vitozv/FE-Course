@@ -1,0 +1,11 @@
+<a href="#" class="gallery-btn">BUTTON</a>
+
+.gallery-btn {
+  display: inline-block;
+  border: 1px solid #fefefe;
+  padding: 10px 20px;
+  color: #fefefe;
+  text-decoration: none;
+
+  
+

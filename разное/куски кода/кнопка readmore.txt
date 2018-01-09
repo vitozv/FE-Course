@@ -1,0 +1,18 @@
+<a href class="article-link">Read more</a>
+
+.article-link {
+display: incline-block;
+padding: 12px;
+border-radius: 2px;
+color: white;
+background-color: blue;
+text-transform: uppercase;
+text-decoration: none;
+font-weight: bold;
+transition: all 0.3s ease-out;
+}
+
+.article-link:hover {
+padding-left: 40px;
+padding-right: 40px;
+}
