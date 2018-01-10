@@ -1,20 +1,21 @@
 header {
-    position: relative;
     width: 830px;
-    height: 140px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 45px;
+    margin-bottom: 55px;
 }
 
 .menu {
-    padding-top: 51px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     text-transform: uppercase;
+    list-style: none;
 }
 
 .menu__item {
     position: relative;
-    display: inline-block;
 }
 
 .menu__item > a {
@@ -53,7 +54,7 @@ header {
     color: white;
 }
 
-.menu__item:hover>.submenu {
+.menu__item:hover > .submenu {
     display: block;
     background-color: white;
     border-radius: 5px 5px 5px 5px;    
@@ -74,29 +75,13 @@ header {
 }
 
 .logo {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);    
     width: 140px;
     height: 140px;
     background-color: rgb(255, 255, 255);
     border-radius: 50%;
     text-align: center;
     color: #263555;
-    text-transform: uppercase;
     font-family: dorsa;
     font-size: 60px;
     line-height: 140px;
 }
-
-.left {
-    float: left;
-    margin-right: 55px;
-}
-
-.right {
-    float: right;
-    margin-left: 55px;
-}
-
