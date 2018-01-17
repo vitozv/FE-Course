@@ -1,0 +1,15 @@
+тег label позволяет при клике на текст отмечать чекбокс
+
+<input type="checkbox" name="" id="check-1">
+<label for="check-1">checkbox 1</label>
+
+или
+
+<label>
+  <input type="checkbox" name="">
+  checkbox 1
+</label>
+при этом
+label {
+  display: block;
+}
