@@ -1,7 +1,7 @@
 <a href class="article-link">Read more</a>
 
 .article-link {
-display: incline-block;
+display: inline-block;
 padding: 12px;
 border-radius: 2px;
 color: white;
