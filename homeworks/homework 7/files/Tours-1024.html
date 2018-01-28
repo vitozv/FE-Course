@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
     <link rel="stylesheet" href="css/Tours-1024.css">
-    <title>Contacts-1024</title>
+    <title>Tours-1024</title>
 </head>
 
 <body>
@@ -53,7 +53,7 @@
     <main>
         <section class="tours">
             <h2>Tours Specials</h2>
-            <wrapper class="gallery">
+            <div class="gallery">
                 <figure class="gallery-item">
                     <img src="img/gal1.jpg" alt="beach">
                     <figcaption class="gallery-caption">
@@ -62,7 +62,7 @@
                         <p class="price">From $ 399</p>
                         <p>Suspendisse jew wligulawe</p>
                         <p class="price">From $ 299</p>
-                        <a href="#" class="details-btn">Details</a>
+                        <a href="#" class="button">Details</a>
                     </figcaption>
                 </figure>
                 <figure class="gallery-item">
@@ -73,7 +73,7 @@
                         <p class="price">From $ 399</p>
                         <p>Huspendisse jew eligulawe</p>
                         <p class="price">From $ 299</p>
-                        <a href="#" class="details-btn">Details</a>
+                        <a href="#" class="button">Details</a>
                     </figcaption>
                 </figure>
                 <figure class="gallery-item">
@@ -84,7 +84,7 @@
                         <p class="price">From $ 399</p>
                         <p>Apendisse jow wligulawet</p>
                         <p class="price">From $ 299</p>
-                        <a href="#" class="details-btn">Details</a>
+                        <a href="#" class="button">Details</a>
                     </figcaption>
                 </figure>
                 <figure class="gallery-item">
@@ -95,7 +95,7 @@
                         <p class="price">From $ 399</p>
                         <p>Suspendisse jew wligulawe</p>
                         <p class="price">From $ 299</p>
-                        <a href="#" class="details-btn">Details</a>
+                        <a href="#" class="button">Details</a>
                     </figcaption>
                 </figure>
                 <figure class="gallery-item">
@@ -106,7 +106,7 @@
                         <p class="price">From $ 399</p>
                         <p>Xuspendisse wew ligulawe</p>
                         <p class="price">From $ 299</p>
-                        <a href="#" class="details-btn">Details</a>
+                        <a href="#" class="button">Details</a>
                     </figcaption>
                 </figure>
                 <figure class="gallery-item">
@@ -117,20 +117,65 @@
                         <p class="price">From $ 399</p>
                         <p>Huspendisse jew eligulawe</p>
                         <p class="price">From $ 299</p>
-                        <a href="#" class="details-btn">Details</a>
+                        <a href="#" class="button">Details</a>
                     </figcaption>
                 </figure>
-            </wrapper>
+            </div>
         </section>
-        <section class="contact-form">
-            <h2>contact us</h2>
+        <section class="form-block">
+            <h2>Browse</h2>
+            <p>Browse by Tour Operator</p>
             <form action="#" method="post">
-                <input type="text" name="name" placeholder="NAME*" required>
-                <input type="email" name="email" placeholder="EMAIL">
-                <input type="text" name="subject" placeholder="SUBJECT">
-                <textarea name="message" placeholder="MESSAGE" rows="11"></textarea>
-                <button type="reset">Clear</button>
-                <button type="submit">Send</button>
+                <select class="select-form" name="Operator">
+                    <option disabled selected>Browse by Tour Operator</option>
+                    <option value = "1">Sputnik Kiev</option>
+                    <option value = "2">Avant</option>
+                    <option value = "3">Check Tour</option>   <option value = "4">Egypt Center</option>
+                    <option value = "5">Apolo Tours</option>
+                    <option value = "6">Veneya</option>
+                    <option value = "7">Antares</option>
+                </select>
+                <button class="button" type="submit">Search</button>
+            </form>
+            <h2>Search</h2>
+            <p class="blue">All Tour Operators</p>
+            <form action="#" method="post">
+                <label for="Destination">Destination</label>
+                <select class="select-form" name="Destination" id="Destination">
+                    <option value = "1">Any destination</option>
+                    <option value = "2">Egypt</option>
+                    <option value = "3">Asia</option>
+                    <option value = "4">Egypt</option>
+                    <option value = "5">Near East</option>
+                    <option value = "6">Islands</option>
+                </select>
+                <label for="Departing">Departing</label>
+                <select class="select-form" name="Departing" id="Departing">
+                    <option value = "1">Any departing</option>
+                    <option value = "2">Kiev</option>
+                    <option value = "3">Lviv</option>
+                    <option value = "4">Dnipro</option>
+                    <option value = "5">Kharkiv</option>
+                    <option value = "6">Odessa</option>
+                </select>
+                <label for="Price">Price</label>
+                <select class="select-form" name="Price" id="Price">
+                    <option value = "1">Any price</option>
+                    <option value = "2">300-500 USD</option>
+                    <option value = "3">500-1000 USD</option>
+                    <option value = "4">1000-2000 USD</option>
+                    <option value = "5">2000-5000 USD</option>
+                    <option value = "6">5000 + USD</option>
+                </select>
+                <label for="Duration">Duration</label>
+                <select class="select-form" name="Duration" id="Duration">
+                    <option value = "1">Any duration</option>
+                    <option value = "2">3-5 days</option>
+                    <option value = "3">5-10 days</option>
+                    <option value = "4">10-20 days</option>
+                    <option value = "5">20 + days</option>
+                </select>
+                <button class="button" type="submit">Search</button>
             </form>
         </section>
     </main>
