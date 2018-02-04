@@ -1,0 +1,13 @@
+<img srcset="pic-480w.jpg 1.5x,
+             pic-640w.jpg 2x"
+     src="pic-320w.jpg" alt="my picture">
+
+
+при этом в CSS
+
+img {
+  width: 320px;
+}
+
+
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images

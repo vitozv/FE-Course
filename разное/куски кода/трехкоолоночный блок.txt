@@ -1,0 +1,17 @@
+<div class="container">
+  <aside class="left-sidebar"></aside>
+  <section class="content"></section>
+  <aside class="right-sidebar"></aside>
+</div>
+
+
+.container {
+  display: flex;
+  height: 200px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.left-sidebar, .right-sidebar {
+  width: 25%;
+}

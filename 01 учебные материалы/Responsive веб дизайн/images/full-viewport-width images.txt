@@ -1,0 +1,9 @@
+<img
+ srcset="large.jpg  1240w, 
+         medium.jpg  620w,
+         small.jpg   310w"
+ src="quilt_2/detail/medium.jpg"
+ alt="Detail of the quilt">
+
+
+<!-- w означает реальную ширину рисунка -->

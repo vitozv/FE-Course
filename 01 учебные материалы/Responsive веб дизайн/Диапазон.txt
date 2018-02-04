@@ -1,0 +1,3 @@
+
+@media screen and (min-width: 400px) and (max-width: 800px)
+стиль применяется от 400 до 800 пикселов

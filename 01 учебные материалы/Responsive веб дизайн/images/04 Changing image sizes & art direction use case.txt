@@ -1,0 +1,18 @@
+<picture>
+	<source
+		media="(min-width: 1280px)"
+		sizes="50vw"
+		srcset="opera-fullshot-200.jpg 200w,
+				opera-fullshot-400.jpg 400w,
+				opera-fullshot-800.jpg 800w,
+				opera-fullshot-1200.jpg 1200w">
+	<img
+		src="opera-closeup-400.jpg" alt="The Oslo Opera House"
+		sizes="(min-width: 640px) 60vw, 100vw"
+		srcset="opera-closeup-200.jpg 200w,
+				opera-closeup-400.jpg 400w,
+				opera-closeup-800.jpg 800w,
+				opera-closeup-1200.jpg 1200w">
+</picture>
+
+https://dev.opera.com/articles/responsive-images/
