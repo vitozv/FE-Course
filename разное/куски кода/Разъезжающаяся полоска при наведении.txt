@@ -1,0 +1,12 @@
+.ft-nav a:after {
+    content: '';
+    display: block;
+    position: absolute;
+    background-color: #02183b;
+    height: 1px;
+    margin-top: -1px;
+    top: 100%;
+    left: 0;
+    right: 0;
+    transform: translate3d(0,0,0) scaleX(0);
+    transition: transform ease-in-out .25s;

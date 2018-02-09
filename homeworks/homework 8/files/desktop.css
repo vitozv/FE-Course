@@ -1,0 +1,25 @@
+@media (min-width: 1440px) {
+    
+    header {
+        padding: 50px 245px 235px 245px;
+    }
+
+    main {
+        padding: 72px 260px 55px 260px;
+    }
+
+    .partners {
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    figure {
+        width: 210px;
+        flex-basis: auto;
+        margin-bottom: 0;
+    }
+
+    .main-btn {
+        margin-top: 40px;
+    }
+}

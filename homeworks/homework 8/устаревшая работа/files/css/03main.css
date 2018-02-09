@@ -1,0 +1,30 @@
+main {
+    min-width: 480px;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 12% 8% 14% 8%;
+    background-color: rgb(255, 255, 255);    
+}
+
+h2 {
+    text-transform: uppercase;
+    font-family: 'Pathway Gothic One';
+    font-size: 1.75rem;
+    color: #263555; 
+    margin-bottom: 7%;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 7%;
+}
+
+.gallery>img:nth-last-child(-n +3) {
+    display: none;
+}
+
+.gallery>img:nth-child(6) {
+    margin-bottom: 0;
+}

@@ -1,0 +1,21 @@
+480 px
+
+margin-top 20
+logo width 80 px 17%
+menu width 225 px 47%
+
+
+
+768 px
+
+margin-top 20
+logo width 100 px 13%
+menu width 290 px 38%
+
+
+
+1024 px
+
+margin-top 45
+logo width 140 px 13,7%
+header width 840 px 82%

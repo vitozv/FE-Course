@@ -1,0 +1,17 @@
+.copyrigt {
+    font-family: arial;
+    font-size: 0.65rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.copyrigt > a {
+    text-decoration: none;
+    font-family: arial;
+    font-size: 0.65rem;
+    color: white;
+}
+
+.copyrigt > a:hover {
+    text-decoration: underline;
+}

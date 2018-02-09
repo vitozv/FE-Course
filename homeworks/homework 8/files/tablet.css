@@ -1,0 +1,58 @@
+@media (min-width: 768px) {
+    
+    header {
+        padding: 50px 50px 235px 45px;
+    }
+    
+    .top-block {
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 155px;
+    }
+
+    h1 {
+        margin: 0;
+        order: 0;
+    }
+
+    h2 {
+        font-size: 3.25rem;
+        margin-bottom: 40px;
+    }
+
+    h3 {
+        margin: 0 0 35px 0;
+        font-size: 1.5rem;
+    }
+
+    .header-bottom-btn {
+        width: 225px;
+    }
+
+    main {
+        padding: 72px 20% 55px 20%;
+    }
+
+    h4 {
+        margin-bottom: 30px;
+    }
+
+    .partners {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    figure {
+        flex-basis: 35%;
+        margin-bottom: 55px;
+    }
+
+    figure:nth-last-of-type(-n+2) {
+        margin-bottom: 0;
+    }
+
+    .main-btn {
+        margin-top: 40px;
+    }
+}
